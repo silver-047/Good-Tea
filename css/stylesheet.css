@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Segoe UI', sans-serif;
+    
+}
+html {
+    background-image:url(../images/web-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fixed;
+}
+
+.nav-top {
+    position:absolute;
+    width: 100%;
+    height: 15%;
+}
+
+.overview-top {
+    position: absolute;
+    width: 100%;
+}
+
+.nav-links {
+    position: absolute;
+    display: inline-flex;
+    margin: 60px;
+    margin-left: 125px;
+}
+
+.nav-links li {
+    margin: 0 25px;
+}
+
+.learn {
+    color: #394867;
+}
+
+.logo {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin: -15px 0px 0px -40px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #9ba4b4;
+    
+}
+
+a:hover {
+    color: #394867;
+}
+
+.current-page {
+    color: #f1f6f9;
+}
+
+.logo-name{
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+main {
+    position: absolute;
+    margin: 200px 100px;
+    width: 40%;
+}
+
+.main-tea {
+    width: 100%;
+    position: absolute;
+    margin: 200px auto 150px auto;
+}
+
+h1 {
+    font-size: 2.75rem;
+    text-align: left;
+    color: #ffffff;
+}
+
+p {
+    font-size: 1.25rem;
+    text-align: left;
+    color: #f1f6f9;
+}
+
+.overview-body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 2;
+}
+
+.tea-container {
+    position:absolute;
+    width:100%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin: 0;
+    text-align: center;
+}
+
+.tea-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 75%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.teas {
+    text-align: center;
+    margin: 20px 50px 20px 50px;
+}
+
+.tea-title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.tea {
+    margin-left: auto;
+    margin-right:auto;
+    width: 113px;
+    border: 5px solid #f1f6f9;
+    border-radius: 50%;
+}
+
+.tea-name {
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    color: #f1f6f9;
+}
+
+.form-container{
+    color: #f1f6f9;
+    font-size: 1.25rem;
+}
+
+.box {
+    padding: 1%;
+    margin-left: 5%;
+}
+
+.box label {
+    display: block;
+    text-align: left;
+    text-shadow: 2px 2px 5px black;
+}
+
+.box input {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.25rem;
+    padding: 1%;
+    width: 50%;
+}
+
+.box textarea {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.25rem;
+    padding: 1%;
+    width: 70%;
+}
+
+.submit {
+    padding: 1%;
+    margin-left: 5%;
+}
+
+.submit input{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #394867;
+    color: #f1f6f9;
+    width: 15%;
+    padding: 1%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
